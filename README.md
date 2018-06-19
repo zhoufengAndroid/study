@@ -1,4 +1,28 @@
-一、设计模式：designpatterns
+## Android - 面向对象六大原则##
+	
+> 1、单一职责原则（Single Responsibility Principle，缩写SRP）
+
+ 	单一职责原则，就一个类而言，应该只有一个引起它变化的原因。简单说，一个类应该是一组高度相关的函数、数据的封装；也就是高内聚。
+
+> 2、开闭原则（Open Close Principle，缩写OCP）
+
+    软件中的对象对于修改是封闭的，对于扩展是开放的。
+
+> 3、里氏替换原则（Liskov Substitution Principle，缩写LSP）
+
+    对于所有能够使用父类对象的地方都应该可以使用其子类的对象，即父类能出现的地方子类都能出现。
+> 4、依赖倒置原则（Dependence Inversion Principle，缩写DIP）
+    
+    简单的讲就是面向接口编程，实现类之间解耦，互不依赖，调用端与实现类通过接口来相互调用。
+
+> 5、接口隔离原则（Interface Segregation Principle，缩写ISP）
+
+    与单一职责原则类似，主要是拆分接口各功能模块，让同一个接口中的各功能都是相关的，不相关的功能踢出去。
+> 6、迪米特原则（Law of Principle，缩写LOP）
+
+    又称最少知道原则，就是调用者只需要知道功能如何调用而不需要知道功能的具体实现。减少调用者与实现类之间的依赖关系。
+
+## 一、设计模式：designpatterns ##
  
   1、迭代器模式（Iterator Pattern）
   
